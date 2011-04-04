@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{webedit}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nick Kaltner", "Anko Painting"]
-  s.date = %q{2011-04-04}
+  s.date = %q{2011-04-05}
   s.description = %q{rails 3 engine to allow for easy editing of assets via a browser}
   s.email = %q{nick.kaltner@gmail.com}
   s.extra_rdoc_files = [
@@ -18,14 +18,18 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "app/controllers/public_files_controller.rb",
+    "app/views/layouts/application.html.erb",
+    "app/views/webedit/public_files/index.html.erb",
     "config/routes.rb",
     "lib/webedit.rb",
-    "lib/webedit/engine.rb"
+    "lib/webedit/engine.rb",
+    "public/stylesheets/default.css",
+    "public/stylesheets/editor.css"
   ]
   s.homepage = %q{http://github.com/ankopainting/webedit}
   s.licenses = ["EPL 1.0"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
+  s.rubygems_version = %q{1.5.2}
   s.summary = %q{webedit rails 3 engine}
   s.test_files = [
     "test/helper.rb",
