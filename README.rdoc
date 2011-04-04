@@ -1,6 +1,6 @@
 = webedit
 
-Description goes here.
+My first attempt at a rails 3 engine.  I'm going to make a web-friendly asset editor with it.
 
 == Contributing to webedit
  
