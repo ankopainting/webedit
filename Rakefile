@@ -14,11 +14,12 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "webedit"
   gem.homepage = "http://github.com/ankopainting/webedit"
-  gem.license = "MIT"
+  gem.license = "EPL 1.0"
   gem.summary = %Q{webedit rails 3 engine}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{rails 3 engine to allow for easy editing of assets via a browser}
   gem.email = "nick.kaltner@gmail.com"
-  gem.authors = ["Nick Kaltner"]
+  gem.authors = ["Nick Kaltner", "Anko Painting"]
+  gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
