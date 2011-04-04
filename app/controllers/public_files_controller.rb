@@ -4,7 +4,6 @@ module Webedit
     unloadable
     
     def index
-      render :text => 'haha'
     end
   end
 end

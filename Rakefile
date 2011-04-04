@@ -19,7 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{rails 3 engine to allow for easy editing of assets via a browser}
   gem.email = "nick.kaltner@gmail.com"
   gem.authors = ["Nick Kaltner", "Anko Painting"]
-  gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*"]
+  gem.files = Dir["{lib}/**/*", "{app}/**/*", "{config}/**/*", "{public}/**/*"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'

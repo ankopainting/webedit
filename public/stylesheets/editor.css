@@ -1,0 +1,103 @@
+.editor {
+	background-color: #111;
+}
+
+.editorContainer {
+	font-family: monospace;
+	font-size: 10pt;
+}
+
+.editorContent {
+    color: #fff;
+}
+
+.token_javadoc, .token_comment {
+	color: #555;
+    font-weight:bold;
+}
+
+.token_string {
+	color: #849162;
+//    font-weight: bold;
+}
+
+.token_keyword {
+	color: #dd9876;
+}
+
+.token_operator {
+    color: #775;
+    font-weight: bold;
+}
+
+.token_bracket_outline {
+	outline: 1px solid red;
+}
+
+.token_bracket {
+	color: white;
+	background-color: grey;
+}
+
+.token_space {
+	background-image: url('/editor/samples/space.png');
+	background-repeat: no-repeat;
+ 	background-position: center center;
+}
+
+.token_tab {
+	background-image: url('/editor/samples/tab.png');
+	background-repeat: no-repeat;
+ 	background-position: left center;
+}
+
+.token_numeric {
+    color: #e8a;
+}
+
+.line_caret {
+	background-color: #181818;
+}
+
+.ruler_annotation {
+	background-color: #666;
+    color: #aaa;
+	width: 16px;
+    border: none;
+}
+
+.ruler_annotation_todo {
+}
+
+.ruler_annotation_todo_overview {
+	background-color: lightgreen;
+/*	border: 1px solid green; */
+}
+
+.ruler_annotation_breakpoint {
+    
+}
+
+.ruler_annotation_breakpoint_overview {
+	background-color: #666;
+/*	border: 1px solid blue; */
+}
+
+.ruler_lines {
+	background-color: #ccc;
+	border-right: 2px solid #666;
+	text-align: right;
+}
+
+.ruler_overview {
+	background-color: #e1ebfb;
+}
+
+.ruler_lines_even {
+	background-color: #666;
+}
+
+.ruler_lines_odd {
+	background-color: #555;
+}
+
