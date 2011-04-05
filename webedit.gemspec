@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{webedit}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Nick Kaltner", "Anko Painting"]
@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.description = %q{rails 3 engine to allow for easy editing of assets via a browser}
   s.email = %q{nick.kaltner@gmail.com}
   s.extra_rdoc_files = [
-    "LICENSE.txt",
     "README.rdoc"
   ]
   s.files = [
